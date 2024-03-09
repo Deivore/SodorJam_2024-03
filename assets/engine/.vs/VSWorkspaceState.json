@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\include\\data",
+    "\\include\\states",
+    "\\src",
+    "\\src\\core",
+    "\\src\\data",
+    "\\src\\data\\music",
+    "\\src\\data\\sounds",
+    "\\src\\states"
+  ],
+  "SelectedNode": "\\src\\core\\scroll.c",
+  "PreviewInSolutionExplorer": false
+}
