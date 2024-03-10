@@ -778,7 +778,7 @@
                     "name": "blocker3",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "702e1e6a-b6bd-400c-b2a1-440c2af0bf6e",
+                    "spriteSheetId": "19855355-790d-41c4-938f-c800be855fbe",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -801,7 +801,7 @@
                     "name": "blocker4",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "702e1e6a-b6bd-400c-b2a1-440c2af0bf6e",
+                    "spriteSheetId": "19855355-790d-41c4-938f-c800be855fbe",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -14310,11 +14310,6 @@
             "symbol": "var_jts_reachedjumpto"
         },
         {
-            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
-            "name": "curr",
-            "symbol": "var_curr"
-        },
-        {
             "id": "22",
             "name": "EF_Flip_Key_",
             "symbol": "var_ef_flip_key_"
@@ -14333,6 +14328,11 @@
             "id": "25",
             "name": "JumpFallToYOffset",
             "symbol": "var_jumpfalltoyoffset"
+        },
+        {
+            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
+            "name": "curr",
+            "symbol": "var_curr"
         }
     ],
     "engineFieldValues": [
