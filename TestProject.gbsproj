@@ -4502,7 +4502,7 @@
                                         "id": "3b20653c-96ed-4913-9f32-5fbe6d0ac9fc",
                                         "command": "EVENT_MUSIC_PLAY",
                                         "args": {
-                                            "musicId": "e2eb6dec-2800-4df9-a6c9-214f42e6b070",
+                                            "musicId": "229fe243-dafd-47da-9e1c-f9888785f511",
                                             "loop": true
                                         }
                                     },
@@ -10259,6 +10259,13 @@
                         "customEventId": "8fbb4684-9dc1-41cd-b429-06dbbae18989"
                     },
                     "id": "5a4519c4-1476-4f72-9b37-3dbb15781481"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "229fe243-dafd-47da-9e1c-f9888785f511"
+                    },
+                    "id": "5d9f4446-f614-4ae1-957a-9361b2fd3aeb"
                 },
                 {
                     "command": "EVENT_IF_TRUE",
@@ -28176,6 +28183,14 @@
             "type": "uge"
         },
         {
+            "id": "229fe243-dafd-47da-9e1c-f9888785f511",
+            "name": "song_template",
+            "symbol": "song_song_template",
+            "filename": "song_template.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -28194,7 +28209,17 @@
             "type": "uge"
         }
     ],
-    "sounds": [],
+    "sounds": [
+        {
+            "id": "8eb20ddb-f760-4ada-a42b-34eb815355fa",
+            "name": "kerchunk_ish.vgm",
+            "symbol": "sound_kerchunk_ish_vgm",
+            "filename": "kerchunk_ish.vgm",
+            "type": "vgm",
+            "inode": "562949955520338",
+            "_v": 1711015966784
+        }
+    ],
     "fonts": [
         {
             "id": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
@@ -28456,8 +28481,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 301,
-        "worldScrollY": 612,
+        "worldScrollX": 68,
+        "worldScrollY": 76,
         "zoom": 175,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -28486,9 +28511,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            273,
-            195,
-            231
+            373,
+            266,
+            316
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

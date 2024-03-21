@@ -11324,7 +11324,7 @@
             "autoFadeSpeed": 1,
             "id": "261c7a03-ca50-48a6-8998-45b0999c480f",
             "symbol": "scene_11",
-            "x": 273.25,
+            "x": 272.67857142857144,
             "y": 434.75,
             "actors": [
                 {
@@ -12933,23 +12933,6 @@
             ],
             "script": [
                 {
-                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                    "args": {
-                        "customEventId": "f97ed158-014f-427e-ba17-b415277d25a4",
-                        "$actor[0]$": "c6c11d00-efe3-4af6-ba89-9673ae926231",
-                        "$actor[1]$": "d8d4b2c7-dae0-4c87-aa07-f2509951d8f0",
-                        "$actor[2]$": "694fa906-b337-4811-90e9-58294b17714f"
-                    },
-                    "id": "3bba9322-909b-4c59-8fe1-1058ec661f3a"
-                },
-                {
-                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                    "args": {
-                        "customEventId": "8fbb4684-9dc1-41cd-b429-06dbbae18989"
-                    },
-                    "id": "fc4cde4f-31c8-4ffc-8d1e-cc0d2b505ecd"
-                },
-                {
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "27",
@@ -12976,6 +12959,23 @@
                         "false": []
                     },
                     "id": "05bc6de3-f2a3-43b1-9422-dd92e315de1d"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "f97ed158-014f-427e-ba17-b415277d25a4",
+                        "$actor[0]$": "c6c11d00-efe3-4af6-ba89-9673ae926231",
+                        "$actor[1]$": "d8d4b2c7-dae0-4c87-aa07-f2509951d8f0",
+                        "$actor[2]$": "694fa906-b337-4811-90e9-58294b17714f"
+                    },
+                    "id": "3bba9322-909b-4c59-8fe1-1058ec661f3a"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "8fbb4684-9dc1-41cd-b429-06dbbae18989"
+                    },
+                    "id": "fc4cde4f-31c8-4ffc-8d1e-cc0d2b505ecd"
                 }
             ],
             "playerHit1Script": [],
@@ -28456,9 +28456,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 163,
-        "worldScrollY": 751,
-        "zoom": 375,
+        "worldScrollX": 301,
+        "worldScrollY": 612,
+        "zoom": 175,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
