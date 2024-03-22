@@ -15611,6 +15611,13 @@
                                 "flag16": false
                             },
                             "id": "ca0652af-c05c-49cd-a6f3-c991786491df"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "6b3bd59c-3539-4479-a472-0d4d0739820c"
                         }
                     ],
                     "startScript": [],
@@ -30314,8 +30321,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 82,
-        "worldScrollY": 1518,
+        "worldScrollX": 77,
+        "worldScrollY": 1209,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": true,

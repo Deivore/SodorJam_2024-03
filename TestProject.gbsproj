@@ -16597,11 +16597,11 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "c8462061-bb85-421e-a49f-0d545bf7f247"
                                 },
-                                "id": "7cb91697-0d5c-4231-8074-d083c0b397bc"
+                                "id": "4b5b1f34-0a05-46a4-ac86-a3a9d5012fb4"
                             }
                         ],
                         "false": []
@@ -16618,11 +16618,11 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "0f379df5-f2ea-404b-8bb1-50fd620328d1"
                                 },
-                                "id": "47ec1dc8-6381-408e-80cd-fc7ac992ffb1"
+                                "id": "f01eb268-1c8e-4e00-b36d-bdf99c18e873"
                             }
                         ],
                         "false": []
@@ -16639,11 +16639,11 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "4ae36f93-69a5-42eb-8cdf-fdfc9f98b21a"
                                 },
-                                "id": "a06c6ff1-3ebc-46a2-99a6-554f795d51d9"
+                                "id": "8cde56cc-3b00-4fa4-897d-aa1fea2ce9d5"
                             }
                         ],
                         "false": []
@@ -16720,7 +16720,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "pawn.png"
+            "filename": "pawn.png",
+            "tileColors": []
         },
         {
             "id": "a5e31935-7545-449f-a031-08e99b5df28c",
@@ -16752,7 +16753,8 @@
             "height": 22,
             "imageWidth": 192,
             "imageHeight": 176,
-            "filename": "streets.png"
+            "filename": "streets.png",
+            "tileColors": []
         },
         {
             "id": "7659b7c6-af1e-4063-85c9-c2c13ccc4d2f",
@@ -30279,11 +30281,6 @@
             "symbol": "var_warehouseswitchleft"
         },
         {
-            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
-            "name": "curr",
-            "symbol": "var_curr"
-        },
-        {
             "id": "33",
             "name": "hasEverGottenFlippers",
             "symbol": "var_hasevergottenflippers"
@@ -30302,6 +30299,11 @@
             "id": "36",
             "name": "coinStatus",
             "symbol": "var_coinstatus"
+        },
+        {
+            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
+            "name": "curr",
+            "symbol": "var_curr"
         }
     ],
     "engineFieldValues": [
