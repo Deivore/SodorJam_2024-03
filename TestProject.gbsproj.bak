@@ -1,5 +1,5 @@
 {
-    "name": "TestProject",
+    "name": "Ripjack",
     "author": "ste",
     "_version": "3.2.0",
     "_release": "1",
@@ -4408,8 +4408,8 @@
             "id": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
             "name": "House",
             "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
-            "x": 340,
-            "y": 74,
+            "x": 451.55555555555554,
+            "y": 71.77777777777779,
             "width": 20,
             "height": 18,
             "actors": [
@@ -6840,9 +6840,9 @@
                                             "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "4c7bec07-62ee-43a1-8ca4-cba32e9907a5",
-                                                "x": 21,
-                                                "y": 4,
+                                                "sceneId": "5bde922c-8469-42bb-9ff8-dcff3dd125e6",
+                                                "x": 13,
+                                                "y": 8,
                                                 "direction": "down",
                                                 "fadeSpeed": "4"
                                             }
@@ -14623,11 +14623,22 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Hooray, you win."
+                                    "I have him now!"
                                 ],
                                 "avatarId": ""
                             },
                             "id": "d3033fd0-e76e-453f-aaa6-75d7b4818018"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "c314c895-62eb-4ccb-a34a-d7d3771211f5",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "be6cbfc0-ccb1-4790-b085-0ebae058900c"
                         }
                     ],
                     "startScript": [],
@@ -16597,11 +16608,11 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "c8462061-bb85-421e-a49f-0d545bf7f247"
                                 },
-                                "id": "7cb91697-0d5c-4231-8074-d083c0b397bc"
+                                "id": "4b5b1f34-0a05-46a4-ac86-a3a9d5012fb4"
                             }
                         ],
                         "false": []
@@ -16618,11 +16629,11 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "0f379df5-f2ea-404b-8bb1-50fd620328d1"
                                 },
-                                "id": "47ec1dc8-6381-408e-80cd-fc7ac992ffb1"
+                                "id": "f01eb268-1c8e-4e00-b36d-bdf99c18e873"
                             }
                         ],
                         "false": []
@@ -16639,16 +16650,45 @@
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_ACTOR_HIDE",
+                                "command": "EVENT_ACTOR_DEACTIVATE",
                                 "args": {
                                     "actorId": "4ae36f93-69a5-42eb-8cdf-fdfc9f98b21a"
                                 },
-                                "id": "a06c6ff1-3ebc-46a2-99a6-554f795d51d9"
+                                "id": "8cde56cc-3b00-4fa4-897d-aa1fea2ce9d5"
                             }
                         ],
                         "false": []
                     },
                     "id": "e90c0748-d4ce-417b-bf00-5ac1a784d13d"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Paper",
+            "backgroundId": "857b405f-424d-4c9b-92f4-5a36490a3d90",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "c314c895-62eb-4ccb-a34a-d7d3771211f5",
+            "symbol": "scene_16",
+            "x": 260.44444444444446,
+            "y": 35.333333333333336,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "e6bdd605-022e-475e-9774-b085a30acc6d"
                 }
             ],
             "playerHit1Script": [],
@@ -16713,6 +16753,16 @@
             "tileColors": []
         },
         {
+            "id": "857b405f-424d-4c9b-92f4-5a36490a3d90",
+            "name": "paper",
+            "symbol": "bg_paper",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "paper.png"
+        },
+        {
             "id": "9a59a3cc-2b10-4c47-b837-a4049c0ca2e7",
             "name": "pawn",
             "symbol": "bg_pawn",
@@ -16720,7 +16770,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "pawn.png"
+            "filename": "pawn.png",
+            "tileColors": []
         },
         {
             "id": "a5e31935-7545-449f-a031-08e99b5df28c",
@@ -16752,7 +16803,8 @@
             "height": 22,
             "imageWidth": 192,
             "imageHeight": 176,
-            "filename": "streets.png"
+            "filename": "streets.png",
+            "tileColors": []
         },
         {
             "id": "7659b7c6-af1e-4063-85c9-c2c13ccc4d2f",
@@ -30279,11 +30331,6 @@
             "symbol": "var_warehouseswitchleft"
         },
         {
-            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
-            "name": "curr",
-            "symbol": "var_curr"
-        },
-        {
             "id": "33",
             "name": "hasEverGottenFlippers",
             "symbol": "var_hasevergottenflippers"
@@ -30302,6 +30349,11 @@
             "id": "36",
             "name": "coinStatus",
             "symbol": "var_coinstatus"
+        },
+        {
+            "id": "c8b6131b-4fe2-4cbf-9845-0102c521f9f7__L0",
+            "name": "curr",
+            "symbol": "var_curr"
         }
     ],
     "engineFieldValues": [
@@ -30321,8 +30373,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 77,
-        "worldScrollY": 1209,
+        "worldScrollX": 86,
+        "worldScrollY": 795,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": true,
