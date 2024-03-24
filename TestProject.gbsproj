@@ -6356,7 +6356,7 @@
             "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
             "name": "Logo",
             "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
-            "x": 974.6666666666667,
+            "x": 974.2222222222223,
             "y": 832.3333333333331,
             "width": 20,
             "height": 18,
@@ -6778,9 +6778,9 @@
         {
             "id": "4912bee2-387a-472f-ae4f-6679b6149517",
             "name": "Title Screen",
-            "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+            "backgroundId": "eb6738e2-bf4d-491e-b274-756693f43327",
             "x": 764.4999999999998,
-            "y": 800.5,
+            "y": 800.9444444444445,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -6793,6 +6793,13 @@
                     "args": {
                         "actorId": "player"
                     }
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "3df62186-cbb5-4098-ba45-d2e3dacce4fe"
+                    },
+                    "id": "c5a1e714-ac73-4018-bb66-a182358ea32d"
                 },
                 {
                     "id": "41b284dc-047f-4bb1-ad5c-f8ade30d034e",
@@ -13261,8 +13268,8 @@
             "autoFadeSpeed": 1,
             "id": "6d2bd1f4-131e-47cc-b7dd-c58a5f6ea5fb",
             "symbol": "scene_12",
-            "x": 60.857142857142854,
-            "y": 160.78571428571436,
+            "x": 60,
+            "y": 123.89682539682546,
             "actors": [
                 {
                     "name": "",
@@ -16937,6 +16944,16 @@
             "imageHeight": 144,
             "filename": "testBg.png",
             "tileColors": []
+        },
+        {
+            "id": "eb6738e2-bf4d-491e-b274-756693f43327",
+            "name": "title",
+            "symbol": "bg_title",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "title.png"
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -30176,6 +30193,14 @@
             "type": "uge"
         },
         {
+            "id": "3df62186-cbb5-4098-ba45-d2e3dacce4fe",
+            "name": "menu_theme",
+            "symbol": "song_menu_theme",
+            "filename": "menu_theme.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "229fe243-dafd-47da-9e1c-f9888785f511",
             "name": "song_template",
             "symbol": "song_song_template",
@@ -30332,7 +30357,7 @@
         {
             "id": "5",
             "name": "Playsound_WarehouseSmall",
-            "symbol": "var_playsound_warehousesmal_0"
+            "symbol": "var_playsound_warehousesmal"
         },
         {
             "id": "6",
@@ -30506,8 +30531,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 53,
-        "worldScrollY": 302,
+        "worldScrollX": 1472,
+        "worldScrollY": 1390,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": true,
