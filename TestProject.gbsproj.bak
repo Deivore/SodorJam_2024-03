@@ -10087,7 +10087,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "1f89e04c-701f-4dea-9771-0b71e4b888e4"
         },
         {
             "name": "Warehouse Inside",
@@ -11127,7 +11128,7 @@
             "id": "261c7a03-ca50-48a6-8998-45b0999c480f",
             "symbol": "scene_11",
             "x": 272.67857142857144,
-            "y": 434.75,
+            "y": 435.55,
             "actors": [
                 {
                     "name": "shadow",
@@ -15648,7 +15649,7 @@
             "id": "4c7bec07-62ee-43a1-8ca4-cba32e9907a5",
             "symbol": "scene_14",
             "x": 62.22222222222223,
-            "y": 542.2222222222224,
+            "y": 543.0222222222224,
             "actors": [
                 {
                     "name": "",
@@ -26434,10 +26435,10 @@
             "id": "default-ui",
             "name": "Default UI",
             "colors": [
-                "F8F8B8",
-                "90C8C8",
-                "486878",
-                "082048"
+                "B8B880",
+                "985018",
+                "504868",
+                "101018"
             ],
             "defaultName": "Default UI",
             "defaultColors": [
@@ -32744,8 +32745,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 3,
-        "worldScrollY": 219,
+        "worldScrollX": 85,
+        "worldScrollY": 533,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": true,

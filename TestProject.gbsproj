@@ -15649,7 +15649,7 @@
             "id": "4c7bec07-62ee-43a1-8ca4-cba32e9907a5",
             "symbol": "scene_14",
             "x": 62.22222222222223,
-            "y": 542.2222222222224,
+            "y": 543.0222222222224,
             "actors": [
                 {
                     "name": "",
@@ -19484,7 +19484,7 @@
                     ]
                 }
             ],
-            "numTiles": 1,
+            "numTiles": 0,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -25346,7 +25346,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 1,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -26435,10 +26435,10 @@
             "id": "default-ui",
             "name": "Default UI",
             "colors": [
-                "F8F8B8",
-                "90C8C8",
-                "486878",
-                "082048"
+                "B8B880",
+                "985018",
+                "504868",
+                "101018"
             ],
             "defaultName": "Default UI",
             "defaultColors": [
@@ -32745,8 +32745,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 22,
-        "worldScrollY": 80,
+        "worldScrollX": 85,
+        "worldScrollY": 353,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": true,
@@ -32775,9 +32775,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            281,
-            248,
-            246
+            346,
+            306,
+            303
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
